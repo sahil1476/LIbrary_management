@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <style>
+        body {
+            background-image: url("https://source.unsplash.com/random");
+            background-size:contain;
+            background-position: center;
+            max-height:fit-content;
+        }
+
+        header {
+            display: flex;
+            position: relative; 
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            font-size:x-large;
+            font-weight: 800;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(223, 181, 181, 0.466) ;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        ul {
+            list-style: none;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+        }
+
+        li {
+            margin-right: 20px;
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 19px;
+            text-decoration: none;
+          }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        li a:hover {
+            background-color: #38303073;
+          }
+          button {
+            margin-right: 50px;
+            height: 70px;
+            width: 200px;
+            border-radius: 15px;
+            font-size: x-large;
+            font-weight: 800;
+            font-family:'Courier New', Courier, monospace;
+            background-color: rgba(85, 96, 110, 0.527);
+            color: rgb(240, 234, 234);
+        }
+        button:hover {
+            background-color: rgba(81, 90, 102, 0.727);
+            color: rgba(197, 211, 240, 0.911);
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size:medium;
+            
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(223, 181, 181, 0.466) ;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./login.html">Log In</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+        <button onclick="window.location.href='./login.html'">ADMIN</button>
+        <button onclick="window.location.href='./login.html'">USER</button>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2021 Sahil Sharma</p>
+    </footer>
+</body>
+</html>

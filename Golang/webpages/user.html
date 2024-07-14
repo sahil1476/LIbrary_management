@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        .gradient-background {
+            background: linear-gradient(278deg,#3b3d35,#8eeae9,#4b6fb1,#dbd5d4,#29337e);
+            background-size: 300% 300%;
+            animation: gradient-animation 30s ease infinite;
+          }
+          
+          @keyframes gradient-animation {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
+        h1{
+            text-align: center;
+            justify-content: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        .card {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 20px;
+            background-color: #dfc0b22f;
+            height: 100px;
+        }
+
+        .card-header {
+            font-size: 18px;
+            font-weight: bold;
+            font-weight: 700;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .card-body {
+            padding: 8px;
+        }
+
+        .card-footer {
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+            background-color: rgba(100, 31, 100, 0.233);
+            border-radius: 30px;
+            width: 100px;
+        
+        }
+        .card-footer a{
+            height: 100px;
+            width: 100px;
+            text-decoration: none;
+            font-size: large;
+            color: white;
+            font-size: larger;
+            font-weight: 600;
+        }
+        .row .card{
+            width: 600px;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .card .card-footer{
+            text-align: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="gradient-background">
+    <div class="container">
+        <h1>User Dashboard</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Raise Book Request
+                    </div>
+                    <div class="card-body">
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a href="userroles/raiseissue.html">Click</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Search Book
+                    </div>
+                    <div class="card-body">
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a href="userroles/searchbook.html">Click</a>
+                    </div>
+                </div>
+            </div>
+                       
+        </div>
+    </div>
+</body>
+</html>
